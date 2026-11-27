@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#option{
+  color: rgb(86, 213, 44);
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  gap: 20px;
+  margin: 50px auto;
+  font-size: 50px;
+
+}
+#question{
+    background-color: rgb(107, 71, 24);
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#score{
+    height: 50px;
+    width: 150px;
+    background-color: blanchedalmond;
+    color: rgba(0, 0, 0, 0.818);
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quiz{
+    height: 600px;
+    width: 800px;
+    background-color: rgb(5, 5, 126);
+    font-size: 30px;
+    margin: 50px auto;
+}
